@@ -1,4 +1,7 @@
-﻿CREATE TABLE users
+CREATE DATABASE inventory;
+
+USE inventory;
+CREATE TABLE users
 (
 	id int PRIMARY KEY IDENTITY(1,1),
 	username VARCHAR(MAX) NULL,
@@ -9,3 +12,4 @@
 )
 
 SELECT * FROM users
+
