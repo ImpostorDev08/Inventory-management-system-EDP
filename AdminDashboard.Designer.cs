@@ -1,0 +1,229 @@
+﻿namespace inventoryManagentSystem
+{
+    partial class AdminDashboard
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            panel1 = new Panel();
+            label1 = new Label();
+            panel2 = new Panel();
+            button4 = new Button();
+            button5 = new Button();
+            button3 = new Button();
+            logout_btn = new Button();
+            button2 = new Button();
+            button1 = new Button();
+            label2 = new Label();
+            panel3 = new Panel();
+            adminManageUser1 = new AdminManageUser();
+            adminManageProducts1 = new AdminManageProducts();
+            userAchiveData1 = new UserAchiveData();
+            productArchiveData1 = new ProductArchiveData();
+            panel1.SuspendLayout();
+            panel2.SuspendLayout();
+            panel3.SuspendLayout();
+            SuspendLayout();
+            // 
+            // panel1
+            // 
+            panel1.Controls.Add(label1);
+            panel1.Dock = DockStyle.Top;
+            panel1.Location = new Point(0, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(1339, 45);
+            panel1.TabIndex = 1;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(12, 18);
+            label1.Name = "label1";
+            label1.Size = new Size(172, 15);
+            label1.TabIndex = 0;
+            label1.Text = "Inventory Management System";
+            // 
+            // panel2
+            // 
+            panel2.Controls.Add(button4);
+            panel2.Controls.Add(button5);
+            panel2.Controls.Add(button3);
+            panel2.Controls.Add(logout_btn);
+            panel2.Controls.Add(button2);
+            panel2.Controls.Add(button1);
+            panel2.Controls.Add(label2);
+            panel2.Dock = DockStyle.Left;
+            panel2.Location = new Point(0, 45);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(248, 717);
+            panel2.TabIndex = 2;
+            // 
+            // button4
+            // 
+            button4.Location = new Point(15, 361);
+            button4.Name = "button4";
+            button4.Size = new Size(218, 38);
+            button4.TabIndex = 6;
+            button4.Text = "Archived Product";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
+            // button5
+            // 
+            button5.Location = new Point(15, 317);
+            button5.Name = "button5";
+            button5.Size = new Size(218, 38);
+            button5.TabIndex = 5;
+            button5.Text = "Archived user";
+            button5.UseVisualStyleBackColor = true;
+            button5.Click += button5_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(12, 273);
+            button3.Name = "button3";
+            button3.Size = new Size(218, 38);
+            button3.TabIndex = 4;
+            button3.Text = "Add Product";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
+            // logout_btn
+            // 
+            logout_btn.Location = new Point(12, 590);
+            logout_btn.Name = "logout_btn";
+            logout_btn.Size = new Size(218, 38);
+            logout_btn.TabIndex = 3;
+            logout_btn.Text = "Logout";
+            logout_btn.UseVisualStyleBackColor = true;
+            logout_btn.Click += logout_btn_Click;
+            // 
+            // button2
+            // 
+            button2.Location = new Point(12, 229);
+            button2.Name = "button2";
+            button2.Size = new Size(218, 38);
+            button2.TabIndex = 2;
+            button2.Text = "Add User";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 185);
+            button1.Name = "button1";
+            button1.Size = new Size(218, 38);
+            button1.TabIndex = 1;
+            button1.Text = "Dashboard";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(31, 140);
+            label2.Name = "label2";
+            label2.Size = new Size(99, 15);
+            label2.TabIndex = 0;
+            label2.Text = "Welcome, Admin";
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(adminManageUser1);
+            panel3.Controls.Add(adminManageProducts1);
+            panel3.Controls.Add(userAchiveData1);
+            panel3.Controls.Add(productArchiveData1);
+            panel3.Dock = DockStyle.Fill;
+            panel3.Location = new Point(248, 45);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1091, 717);
+            panel3.TabIndex = 3;
+            // 
+            // adminManageUser1
+            // 
+            adminManageUser1.Location = new Point(0, -1);
+            adminManageUser1.Name = "adminManageUser1";
+            adminManageUser1.Size = new Size(1091, 718);
+            adminManageUser1.TabIndex = 3;
+            // 
+            // adminManageProducts1
+            // 
+            adminManageProducts1.Location = new Point(0, 0);
+            adminManageProducts1.Name = "adminManageProducts1";
+            adminManageProducts1.Size = new Size(1091, 717);
+            adminManageProducts1.TabIndex = 2;
+            // 
+            // userAchiveData1
+            // 
+            userAchiveData1.Location = new Point(0, 0);
+            userAchiveData1.Name = "userAchiveData1";
+            userAchiveData1.Size = new Size(1091, 717);
+            userAchiveData1.TabIndex = 1;
+            // 
+            // productArchiveData1
+            // 
+            productArchiveData1.Location = new Point(0, 0);
+            productArchiveData1.Name = "productArchiveData1";
+            productArchiveData1.RightToLeft = RightToLeft.No;
+            productArchiveData1.Size = new Size(1091, 717);
+            productArchiveData1.TabIndex = 0;
+            // 
+            // AdminDashboard
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(1339, 762);
+            Controls.Add(panel3);
+            Controls.Add(panel2);
+            Controls.Add(panel1);
+            Name = "AdminDashboard";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "AdminDashboard";
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            panel3.ResumeLayout(false);
+            ResumeLayout(false);
+        }
+
+        #endregion
+        private Panel panel1;
+        private Label label1;
+        private Panel panel2;
+        private Label label2;
+        private Button button1;
+        private Button logout_btn;
+        private Button button2;
+        private Panel panel3;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private ProductArchiveData productArchiveData1;
+        private UserAchiveData userAchiveData1;
+        private AdminManageUser adminManageUser1;
+        private AdminManageProducts adminManageProducts1;
+    }
+}

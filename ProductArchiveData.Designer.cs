@@ -1,0 +1,102 @@
+﻿namespace inventoryManagentSystem
+{
+    partial class ProductArchiveData
+    {
+        /// <summary> 
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary> 
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Component Designer generated code
+
+        /// <summary> 
+        /// Required method for Designer support - do not modify 
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            dataGridView2 = new DataGridView();
+            label9 = new Label();
+            panel3 = new Panel();
+            productarchive_btn = new Button();
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).BeginInit();
+            panel3.SuspendLayout();
+            SuspendLayout();
+            // 
+            // dataGridView2
+            // 
+            dataGridView2.AllowUserToAddRows = false;
+            dataGridView2.AllowUserToDeleteRows = false;
+            dataGridView2.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridView2.Location = new Point(27, 46);
+            dataGridView2.Name = "dataGridView2";
+            dataGridView2.ReadOnly = true;
+            dataGridView2.RowHeadersVisible = false;
+            dataGridView2.Size = new Size(1017, 585);
+            dataGridView2.TabIndex = 1;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Location = new Point(29, 18);
+            label9.Name = "label9";
+            label9.Size = new Size(121, 15);
+            label9.TabIndex = 0;
+            label9.Text = "All Archived Products";
+            // 
+            // panel3
+            // 
+            panel3.Controls.Add(productarchive_btn);
+            panel3.Controls.Add(dataGridView2);
+            panel3.Controls.Add(label9);
+            panel3.Location = new Point(18, 21);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(1072, 661);
+            panel3.TabIndex = 5;
+            // 
+            // productarchive_btn
+            // 
+            productarchive_btn.Location = new Point(969, 14);
+            productarchive_btn.Name = "productarchive_btn";
+            productarchive_btn.Size = new Size(75, 23);
+            productarchive_btn.TabIndex = 2;
+            productarchive_btn.Text = "Update";
+            productarchive_btn.UseVisualStyleBackColor = true;
+            productarchive_btn.Click += productarchive_btn_Click;
+            // 
+            // ProductArchiveData
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            Controls.Add(panel3);
+            Name = "ProductArchiveData";
+            RightToLeft = RightToLeft.No;
+            Size = new Size(1107, 688);
+            Load += ProductArchiveData_Load;
+            ((System.ComponentModel.ISupportInitialize)dataGridView2).EndInit();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            ResumeLayout(false);
+        }
+
+        #endregion
+
+        private DataGridView dataGridView2;
+        private Label label9;
+        private Panel panel3;
+        private Button productarchive_btn;
+    }
+}
